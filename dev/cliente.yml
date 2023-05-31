@@ -6,7 +6,7 @@ spring:
     name: cliente
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1432;DatabaseName=cliente;encrypt=false;trustServerCertificate=false;
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=cliente;encrypt=false;trustServerCertificate=false;
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     username: sa
     password: Admin123456789
